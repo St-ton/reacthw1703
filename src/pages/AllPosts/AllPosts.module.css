@@ -1,0 +1,44 @@
+.container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+/* .PostCard {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+} 
+
+.PostCard h2 {
+  margin-top: 0;
+}
+
+.PostCard p {
+  margin-bottom: 5px;
+}
+
+.PostCard button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.PostCard button:hover {
+  background-color: #cc0000;
+} */

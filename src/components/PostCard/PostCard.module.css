@@ -1,0 +1,45 @@
+.post_card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 48%;
+  height: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.post_title {
+  margin-bottom: 5px;
+}
+
+.post_text {
+  margin-bottom: 10px;
+}
+
+.post_author {
+  font-style: italic;
+  color: burlywood;
+}
+.post_date {
+  margin-bottom: 10px;
+  color: gray;
+  font-size: 14px;
+  padding-right: 45%;
+}
+
+.post_btn {
+  /* margin-left: 70%; */
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.post_btn:hover {
+}
