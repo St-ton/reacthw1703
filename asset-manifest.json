@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reacthw1703/static/css/main.03d33213.css",
+    "main.js": "/reacthw1703/static/js/main.2fdeea40.js",
+    "index.html": "/reacthw1703/index.html",
+    "main.03d33213.css.map": "/reacthw1703/static/css/main.03d33213.css.map",
+    "main.2fdeea40.js.map": "/reacthw1703/static/js/main.2fdeea40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03d33213.css",
+    "static/js/main.2fdeea40.js"
+  ]
+}
