@@ -1,12 +1,12 @@
 import PostCard from "../../components/PostCard/PostCard";
-// import { ToastContainer, toast } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import s from "./AllPosts.module.css";
 
 export default function AllPosts({ posts, onDeletePost }) {
   return (
     <>
-      <h1 className={s.h1}>All Posts</h1>
+      <h1>All Posts</h1>
       <div className={s.container}>
         {posts.length > 0 ? (
           posts.map((post, index) => (
@@ -17,10 +17,10 @@ export default function AllPosts({ posts, onDeletePost }) {
             />
           ))
         ) : (
-          <p className={s.p}>No posts yet. Why not add one?</p>
+          <h2>No posts! Why not add one?👍</h2>
         )}
       </div>
-      {/* <ToastContainer autoClose={1000} theme="light" hideProgressBar={true} /> */}
+      <ToastContainer autoClose={5000} theme="light" hideProgressBar={true} />
     </>
   );
 }
