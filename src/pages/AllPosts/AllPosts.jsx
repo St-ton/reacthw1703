@@ -1,6 +1,6 @@
 import PostCard from "../../components/PostCard/PostCard";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+// import { ToastContainer, toast } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
 import s from "./AllPosts.module.css";
 
 export default function AllPosts({ posts, onDeletePost }) {
@@ -20,7 +20,7 @@ export default function AllPosts({ posts, onDeletePost }) {
           <p className={s.p}>No posts yet. Why not add one?</p>
         )}
       </div>
-      <ToastContainer autoClose={1000} theme="light" hideProgressBar={true} />
+      {/* <ToastContainer autoClose={1000} theme="light" hideProgressBar={true} /> */}
     </>
   );
 }

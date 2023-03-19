@@ -1,14 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Nav.css";
+import s from "./Nav.module.css";
 
 export default function Nav() {
-  const isActive = ({ isActive }) => (isActive ? "active" : "");
+  const isActive = ({ isActive }) => (isActive ? s.active : "");
 
   return (
-    <nav className="nav">
-      <NavLink to="/">All Posts</NavLink>
-      <NavLink to="/addpost">Add Post</NavLink>
+    <nav className={s.nav}>
+      <NavLink className={isActive} to="/">
+        All Posts
+      </NavLink>
+      <NavLink className={isActive} to="/addpost">
+        Add Post
+      </NavLink>
     </nav>
   );
 }
